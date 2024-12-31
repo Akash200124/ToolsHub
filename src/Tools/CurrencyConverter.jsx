@@ -94,17 +94,8 @@ function CurrencyConverter() {
 
     return (
         <div
-            className="w-100 h-100 d-flex flex-wrap justify-content-center align-items-center bg-cover bg-no-repeat"
-            style={{
-                backgroundImage: `url(https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1})`, 
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                height: '100vh',
-            }}
-
-
-        >
-            <div className="w-100">
+            className="w-100  mt-5 h-100 d-flex flex-wrap justify-content-center align-items-center ">
+            <div className="w-50">
                 <div className="max-w-md mx-auto border border-secondary rounded p-4 backdrop-blur-sm bg-white bg-opacity-30">
                     <form
                         onSubmit={(e) => {
@@ -125,7 +116,7 @@ function CurrencyConverter() {
                         <div className="position-relative w-100 my-2">
                             <button
                                 type="button"
-                                className="position-absolute start-50 translate-middle border border-white rounded bg-primary text-white px-2 py-1"
+                                className="position-absolute start-50 translate-middle border border-white rounded bg-primary text-white py-1 px-2"
                                 onClick={swap}
                             >
                                 Swap
@@ -143,7 +134,7 @@ function CurrencyConverter() {
                         </div>
                         <button
                             type="submit"
-                            className="w-100 btn btn-primary py-3 rounded"
+                            className="w-100 btn btn-primary py-2 rounded"
                         >
                             Convert {from.toUpperCase()} to {to.toUpperCase()}
                         </button>
