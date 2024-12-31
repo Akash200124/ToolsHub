@@ -15,6 +15,7 @@ import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import CurrencyConverter from './Tools/CurrencyConverter.jsx';
+import WordCounter from './Tools/WordCounter.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,9 +35,18 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />
-      },{
-        path:"/currencyConverter",
-        element:<CurrencyConverter/>
+      }, 
+      {
+        path: "/currencyConverter",
+        element: <CurrencyConverter />
+      },
+      {
+        path: "*",
+        element: <h1>404 Not Found</h1>
+      },
+      {
+        path:'/wordCounter',
+        element:<WordCounter/>
       }
     ]
   },
