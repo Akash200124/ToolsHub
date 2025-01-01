@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 // import cyyrency from '../assets/currency-converter.jpeg'
 import cyyrency from '../assets/currecyConverterIcon1.jpg'
 import wordCounter from '../assets/wordCounter.jpg'
+import passwordGenerator from '../assets/password.webp'
 
 import '../App.css'
 
@@ -36,14 +37,16 @@ function Home() {
                 </div>
 
                 
-
-                <div class="card" style={{ width: "18rem", margin: "20px" }}>
-                    <img src="" class="card-img-top" alt="this is card image " />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+                {/* //password generator */}
+                <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
+                    <Link className='text-decoration-none text-dark ' to="/passwordGenerator">
+                        <div className=" pt-3">
+                            <img src={passwordGenerator} class="card-img-top " alt="this is card image " />
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title fw-bold text-center">Password Generator</h5>
+                        </div>
+                    </Link>
                 </div>
 
                 <div class="card  " style={{ width: "18rem", margin: "20px" }}>

@@ -16,6 +16,7 @@ import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import CurrencyConverter from './Tools/CurrencyConverter.jsx';
 import WordCounter from './Tools/WordCounter.jsx';
+import PasswordGenerator from './Tools/PasswordGenerator.jsx';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,9 @@ const router = createBrowserRouter([
       {
         path:'/wordCounter',
         element:<WordCounter/>
+      },{
+        path:'/passwordGenerator',
+        element:<PasswordGenerator/>
       }
     ]
   },

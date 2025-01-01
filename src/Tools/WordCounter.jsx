@@ -22,7 +22,7 @@ function WordCounter() {
     };
 
     return (
-        <div className="d-flex flex-column justify-content-center align-items-center mt-5">
+        <div className="d-flex flex-column justify-content-center align-items-center my-5">
             <div className=" bg-info-subtle fs-2 fw-bold text-center border border-2 border-secondary p-2 rounded w-50 ">
                 {`${countWords(text)} words ${countCharacters(text)} characters`}
             </div>

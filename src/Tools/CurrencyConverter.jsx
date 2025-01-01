@@ -94,7 +94,7 @@ function CurrencyConverter() {
 
     return (
         <div
-            className="w-100  mt-5 h-100 d-flex flex-wrap justify-content-center align-items-center ">
+            className="w-100  my-5 h-100 d-flex flex-wrap justify-content-center align-items-center ">
             <div className="w-50">
                 <div className="max-w-md mx-auto border border-secondary rounded p-4 backdrop-blur-sm bg-white bg-opacity-30">
                     <form
