@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router';
 import heart from '../src/assets/Heart.png';
 
+import './App.css';
+
 
 const App = () => {
 
@@ -42,9 +44,9 @@ const App = () => {
 
       {/* // footer section  */}
 
-      <div className=" border border-1 ">
+      <div className=" border border-1  bg-body-tertiary">
         
-        <footer className="py-5 px-5">
+        <footer className="py-5 px-5 ">
           <div className="row">
             <div className="col-6 col-md-2 mb-3">
               <h5>Section</h5>
