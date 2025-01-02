@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import cyyrency from '../assets/currecyConverterIcon1.jpg'
 import wordCounter from '../assets/wordCounter.jpg'
 import passwordGenerator from '../assets/password.webp'
+import jsonformat from '../assets/jsonformat.png' 
 
 import '../App.css'
 
@@ -48,6 +49,20 @@ function Home() {
                         </div>
                     </Link>
                 </div>
+
+                {/* // json formatter  */}
+                <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
+                    <Link className='text-decoration-none text-dark ' to="/passwordGenerator">
+                        <div className=" pt-3">
+                            <img src={jsonformat} class="card-img-top " alt="this is card image " />
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title fw-bold text-center">JSON Formatter</h5>
+                        </div>
+                    </Link>
+                </div>
+
+                
 
                 <div class="card  " style={{ width: "18rem", margin: "20px" }}>
                     <img src="" class="card-img-top" alt="this is card image " />

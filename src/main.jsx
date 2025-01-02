@@ -17,6 +17,7 @@ import About from './pages/About.jsx';
 import CurrencyConverter from './Tools/CurrencyConverter.jsx';
 import WordCounter from './Tools/WordCounter.jsx';
 import PasswordGenerator from './Tools/PasswordGenerator.jsx';
+import JsonParser from './Tools/JsonParser.jsx'
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About />
-      }, 
+      },
       {
         path: "/currencyConverter",
         element: <CurrencyConverter />
@@ -46,11 +47,16 @@ const router = createBrowserRouter([
         element: <h1>404 Not Found</h1>
       },
       {
-        path:'/wordCounter',
-        element:<WordCounter/>
-      },{
-        path:'/passwordGenerator',
-        element:<PasswordGenerator/>
+        path: '/wordCounter',
+        element: <WordCounter />
+      },
+      {
+        path: '/passwordGenerator',
+        element: <PasswordGenerator />
+      },
+      {
+        path: '/jsonFormatter',
+        element: <JsonParser />
       }
     ]
   },

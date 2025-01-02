@@ -41,7 +41,7 @@ function PasswordGenerator () {
   
     return (
       
-        <div className='d-flex flex-column justify-content-center align-items-center'>
+        <div className='d-flex flex-column justify-content-center align-items-center my-5'>
         <div className='my-5 border border-primary rounded p-5'>
           <h1 className='pb-2'>Password Generator</h1>
           <div className='d-flex  mb-4'>

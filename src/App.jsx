@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <>
+    {/* // header section */}
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <Link class="navbar-brand fs-2 ms-2" to="/">ToolsHub</Link>
@@ -45,20 +46,20 @@ const App = () => {
       {/* // footer section  */}
 
       <div className=" border border-1  bg-body-tertiary">
-        
+
         <footer className="py-5 px-5 ">
           <div className="row">
             <div className="col-6 col-md-2 mb-3">
               <h5>Section</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                <Link  className='nav-link p-0 text-body-secondary' to={"/"}>Home</Link>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/"}>Home</Link>
                 </li>
                 <li className="nav-item mb-2">
-                <Link  className='nav-link p-0 text-body-secondary' to={"/about"}>About</Link>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/about"}>About</Link>
                 </li>
                 <li className="nav-item mb-2">
-                <Link  className='nav-link p-0 text-body-secondary' to={"/contact"}>Contact</Link>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/contact"}>Contact</Link>
                 </li>
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">FAQs</a>
@@ -73,15 +74,22 @@ const App = () => {
               <h5>Tools</h5>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
-                  <Link  className='nav-link p-0 text-body-secondary' to={"/currencyConverter"}>Currency Converter</Link>
-                  
+                  <Link className='nav-link p-0 text-body-secondary' to={"/currencyConverter"}>Currency Converter</Link>
+
                 </li>
                 <li className="nav-item mb-2">
-                <Link  className='nav-link p-0 text-body-secondary' to={"/wordCounter"}>Word Counter</Link>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/wordCounter"}>Word Counter</Link>
                 </li>
                 <li className="nav-item mb-2">
-                <Link  className='nav-link p-0 text-body-secondary' to={"/passwordGenerator"}>Password Generator</Link>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/passwordGenerator"}>Password Generator</Link>
                 </li>
+                <li className="nav-item mb-2">
+                  <Link className='nav-link p-0 text-body-secondary' to={"/jsonFormatter"}>JSON Formatter</Link>
+                </li>
+
+                
+
+
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">FAQs</a>
                 </li>
@@ -112,7 +120,7 @@ const App = () => {
               </ul>
             </div>
 
-           
+
           </div>
 
           <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
