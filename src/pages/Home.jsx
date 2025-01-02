@@ -52,7 +52,7 @@ function Home() {
 
                 {/* // json formatter  */}
                 <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
-                    <Link className='text-decoration-none text-dark ' to="/passwordGenerator">
+                    <Link className='text-decoration-none text-dark ' to="/jsonFormatter">
                         <div className=" pt-3">
                             <img src={jsonformat} class="card-img-top " alt="this is card image " />
                         </div>
