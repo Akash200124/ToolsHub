@@ -61,7 +61,7 @@ li:hover {
   transition: 0.4s;
 }
 
-.slider:before  {
+.slider:before {
   position: absolute;
   content: "";
   height: 26px;
@@ -72,19 +72,35 @@ li:hover {
   transition: 0.4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(26px);
 }
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 40px;
+  border-radius: 40px !important;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+  border-radius: 50% !important;
+}
+
+
+.json-output {
+  width: 600px;
+  /* Fixed width */
+  height: 500px;
+  /* Fixed height */
+  overflow: auto;
+  /* Enable scrolling */
+  /* border: 1px solid #ccc;  */
+  padding: 10px;
+  background-color: #f9f9f9;
+  /* Optional: Light background */
+  font-family: monospace;
+  /* Use monospace font for JSON */
 }
