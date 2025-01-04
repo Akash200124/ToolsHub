@@ -5,6 +5,7 @@ import cyyrency from '../assets/currecyConverterIcon1.jpg'
 import wordCounter from '../assets/wordCounter.jpg'
 import passwordGenerator from '../assets/password.webp'
 import jsonformat from '../assets/jsonformat.png' 
+import imagetopdf from '../assets/imagetopdf.png'
 
 import '../App.css'
 
@@ -62,7 +63,17 @@ function Home() {
                     </Link>
                 </div>
 
-                
+                {/* image to pdf converter */}
+                <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
+                    <Link className='text-decoration-none text-dark ' to="/imageToPdfConverter">
+                        <div className=" pt-3">
+                            <img src={imagetopdf} class="card-img-top " alt="this is card image " />
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title fw-bold text-center">Image to PDF Converter</h5>
+                        </div>
+                    </Link>
+                </div>
 
                 <div class="card  " style={{ width: "18rem", margin: "20px" }}>
                     <img src="" class="card-img-top" alt="this is card image " />

@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router';
 import heart from '../src/assets/Heart.png';
 
 import './App.css';
-
+import './styles/index.scss'
 
 const App = () => {
 
@@ -23,7 +23,7 @@ const App = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+                <Link class="nav-link active live" aria-current="page" to="/">Home</Link>
               </li>
 
               <li class="nav-item">
@@ -86,15 +86,8 @@ const App = () => {
                 <li className="nav-item mb-2">
                   <Link className='nav-link p-0 text-body-secondary' to={"/jsonFormatter"}>JSON Formatter</Link>
                 </li>
-
-                
-
-
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">FAQs</a>
-                </li>
-                <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">About</a>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/imageToPdfConverter"}>imageToPdfConverter</Link>
                 </li>
               </ul>
             </div>
