@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import cyyrency from '../assets/currecyConverterIcon1.jpg'
 import wordCounter from '../assets/wordCounter.jpg'
 import passwordGenerator from '../assets/password.webp'
-import jsonformat from '../assets/jsonformat.png' 
+import jsonformat from '../assets/jsonformat.png'
 import imagetopdf from '../assets/imagetopdf.png'
 
 import '../App.css'
@@ -38,7 +38,7 @@ function Home() {
                     </Link>
                 </div>
 
-                
+
                 {/* //password generator */}
                 <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
                     <Link className='text-decoration-none text-dark ' to="/passwordGenerator">

@@ -47,7 +47,7 @@ const App = () => {
 
       <div className=" border border-1  bg-body-tertiary">
 
-        <footer className="py-5 px-5 ">
+        <footer className="pt-5 px-5 ">
           <div className="row">
             <div className="col-6 col-md-2 mb-3">
               <h5>Section</h5>
@@ -116,7 +116,7 @@ const App = () => {
 
           </div>
 
-          <div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <div className="d-flex flex-column flex-sm-row justify-content-between py-2 mt-4 border-top">
             <p>Made with Love <img src={heart} alt="" height={20} width={20} /> . All rights reserved.</p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3">
