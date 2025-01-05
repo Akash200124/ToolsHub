@@ -15,6 +15,7 @@ import WordCounter from './Tools/WordCounter.jsx';
 import PasswordGenerator from './Tools/PasswordGenerator.jsx';
 import JsonParser from './Tools/JsonParser.jsx'
 import ImageToPdfConverter from './Tools/ImageToPdfConverter.jsx';
+import QrCodeGenerator from './Tools/QrCodeGenerator.jsx';
 
 const router = createBrowserRouter([
   {
@@ -58,7 +59,12 @@ const router = createBrowserRouter([
       {
         path: '/imageToPdfConverter',
         element: <ImageToPdfConverter />
-       
+
+      } ,
+      {
+        path: '/qrCodeGenerator',
+        element: <QrCodeGenerator />
+
       }
     ]
   },

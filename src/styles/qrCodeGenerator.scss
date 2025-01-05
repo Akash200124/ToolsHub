@@ -1,0 +1,19 @@
+label {
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.div-container {
+    input[type="color"] {
+        cursor: pointer;
+    }
+
+    input[type="range"] {
+        cursor: pointer;
+    }
+}
