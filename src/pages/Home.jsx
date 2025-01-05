@@ -6,6 +6,7 @@ import wordCounter from '../assets/wordCounter.jpg'
 import passwordGenerator from '../assets/password.webp'
 import jsonformat from '../assets/jsonformat.png'
 import imagetopdf from '../assets/imagetopdf.png'
+import qrcode from '../assets/qrcode.webp'
 
 import '../App.css'
 
@@ -71,6 +72,19 @@ function Home() {
                         </div>
                         <div class="card-body ">
                             <h5 class="card-title fw-bold text-center">Image to PDF Converter</h5>
+                        </div>
+                    </Link>
+                </div>
+
+                {/* qr code generator */}
+
+                <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
+                    <Link className='text-decoration-none text-dark ' to="/qrCodeGenerator">
+                        <div className=" pt-3 mt-4">
+                            <img src={qrcode} class="card-img-top " alt="this is card image " />
+                        </div>
+                        <div class="card-body mt-3 ">
+                            <h5 class="card-title fw-bold text-center mt-5">QR Code Generator</h5>
                         </div>
                     </Link>
                 </div>
