@@ -16,6 +16,7 @@ import PasswordGenerator from './Tools/PasswordGenerator.jsx';
 import JsonParser from './Tools/JsonParser.jsx'
 import ImageToPdfConverter from './Tools/ImageToPdfConverter.jsx';
 import QrCodeGenerator from './Tools/QrCodeGenerator.jsx';
+import ImageCompression from './Tools/ImageCompression.jsx';
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,11 @@ const router = createBrowserRouter([
       {
         path: '/qrCodeGenerator',
         element: <QrCodeGenerator />
+
+      },
+      {
+        path:'/imageCompression',
+        element:<ImageCompression/>
 
       }
     ]

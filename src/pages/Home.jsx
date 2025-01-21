@@ -7,6 +7,7 @@ import passwordGenerator from '../assets/password.webp'
 import jsonformat from '../assets/jsonformat.png'
 import imagetopdf from '../assets/imagetopdf.png'
 import qrcode from '../assets/qrcode.webp'
+import imagecompression from '../assets/imageCompress.png'
 
 import '../App.css'
 
@@ -89,13 +90,16 @@ function Home() {
                     </Link>
                 </div>
 
-                <div class="card  " style={{ width: "18rem", margin: "20px" }}>
-                    <img src="" class="card-img-top" alt="this is card image " />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+                {/* image compression  */}
+                <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
+                    <Link className='text-decoration-none text-dark ' to="/imageCompression">
+                        <div className="mt-3">
+                            <img src={imagecompression} class="card-img-top " alt="this is card image " />
+                        </div>
+                        <div class="card-body  ">
+                            <h5 class="card-title fw-bold text-center mt-2">Image Compression</h5>
+                        </div>
+                    </Link>
                 </div>
 
                 <div class="card " style={{ width: "18rem", margin: "20px" }}>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "browser-image-compression": "^2.0.2",
     "jspdf": "^2.5.2",
     "qrcode.react": "^4.2.0",
     "react": "^18.0.0",
