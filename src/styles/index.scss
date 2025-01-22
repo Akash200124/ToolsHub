@@ -4,5 +4,46 @@
 $primary-color: rgb(213, 220, 243);
 
 body {
-    background-color:  $primary-color!important;
+    background-color: $primary-color !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: green;
+}
+
+img {
+    width: 100%;
+    /* Ensures the image scales responsively */
+    max-width: 300px;
+    /* Limits the maximum size */
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        max-width: 100% !important;
+        /* Ensures the image fits the mobile screen width */
+    }
+}
+
+.inStyle {
+    background-color: rgba(13, 202, 240, 0.15) !important;
+    padding: 12px;
+    margin: 12px 0px;
+    border-radius: 12px;
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .inStyle {
+        background-color: rgba(13, 202, 240, 0.15) !important;
+        padding: 12px;
+        margin: 12px 0px;
+        border-radius: 12px;
+
+        input {
+            width: 100%;
+        }
+    }
 }
