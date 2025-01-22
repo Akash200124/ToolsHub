@@ -14,7 +14,7 @@ import '../App.css'
 function Home() {
     return (
 
-        <div class="container mt-3 grid gap-3  ">
+        <div class="container mt-3 grid gap-3 akash ">
             <div class="row ">
 
                 <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
@@ -102,33 +102,8 @@ function Home() {
                     </Link>
                 </div>
 
-                <div class="card " style={{ width: "18rem", margin: "20px" }}>
-                    <img src="" class="card-img-top" alt="this is card image " />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style={{ width: "18rem", margin: "20px" }}>
-                    <img src="" class="card-img-top" alt="this is card image " />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5 ">
-
-
 
             </div>
-
-
-
-
 
         </div>
 
