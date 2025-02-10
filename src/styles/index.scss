@@ -7,6 +7,11 @@ body {
     background-color: $primary-color !important;
 }
 
+.imageSize{
+    width: 10px!important;
+    height: 10px !important ;
+}
+
 a {
     text-decoration: none !important;
     color: green;
@@ -19,12 +24,15 @@ img {
     /* Limits the maximum size */
 }
 
+
 @media screen and (max-width: 400px) {
     img {
         max-width: 100% !important;
         /* Ensures the image fits the mobile screen width */
     }
 }
+
+
 
 .inStyle {
     background-color: rgba(13, 202, 240, 0.15) !important;

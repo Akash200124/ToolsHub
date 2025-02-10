@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, Outlet } from 'react-router';
-import heart from '../src/assets/Heart.png';
+import heart from '../src/assets/Heart1.png';
 
 import './App.css';
 import './styles/index.scss'
@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <>
-    {/* // header section */}
+      {/* // header section */}
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <Link class="navbar-brand fs-2 ms-2" to="/">ToolsHub</Link>
@@ -95,15 +95,16 @@ const App = () => {
             <div className="col-6 col-md-2 mb-3">
               <h5>Tools</h5>
               <ul className="nav flex-column">
-              <li className="nav-item mb-2">
+                <li className="nav-item mb-2">
                   <Link className='nav-link p-0 text-body-secondary' to={"/qrCodeGenerator"}>QR Code Generator</Link>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">Features</a>
+                  <Link className='nav-link p-0 text-body-secondary' to={"/imageCompression"}>Image Compression</Link>
                 </li>
                 <li className="nav-item mb-2">
-                  <a href="#" className="nav-link p-0 text-body-secondary">Pricing</a>
+                  <Link className='nav-link p-0 text-body-secondary' to={"https://shorturl-one-delta.vercel.app/"}>Url Shortner</Link>
                 </li>
+
                 <li className="nav-item mb-2">
                   <a href="#" className="nav-link p-0 text-body-secondary">FAQs</a>
                 </li>
@@ -117,7 +118,9 @@ const App = () => {
           </div>
 
           <div className="d-flex flex-column flex-sm-row justify-content-between py-2 mt-4 border-top">
-            <p>Made with Love <img src={heart} alt="" height={20} width={20} /> . All rights reserved.</p>
+            <p>Made with Love
+              {/* <img src={heart} alt="" height={20} width={20} /> */}
+              . All rights reserved.</p>
             <ul className="list-unstyled d-flex">
               <li className="ms-3">
                 <a className="link-body-emphasis" href="#">

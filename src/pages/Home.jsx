@@ -8,6 +8,7 @@ import jsonformat from '../assets/jsonformat.png'
 import imagetopdf from '../assets/imagetopdf.png'
 import qrcode from '../assets/qrcode.webp'
 import imagecompression from '../assets/imageCompress.png'
+import urlshortner from '../assets/urlShortner.webp'
 
 import '../App.css'
 
@@ -98,6 +99,18 @@ function Home() {
                         </div>
                         <div class="card-body  ">
                             <h5 class="card-title fw-bold text-center mt-2">Image Compression</h5>
+                        </div>
+                    </Link>
+                </div>
+                
+                {/* url shortner  */}
+                <div class="card custom-card " style={{ width: "18rem", margin: "20px" }}>
+                    <Link className='text-decoration-none text-dark ' to="https://shorturl-one-delta.vercel.app/">
+                        <div className="mt-3">
+                            <img src={urlshortner} class="card-img-top " alt="this is card image " />
+                        </div>
+                        <div class="card-body  ">
+                            <h5 class="card-title fw-bold text-center mt-2">Url Shortner</h5>
                         </div>
                     </Link>
                 </div>
